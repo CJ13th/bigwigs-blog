@@ -4,7 +4,6 @@
 
         if (res.ok) {
             const {posts} = await res.json()
-
             return {
                 props: {posts}
             }
